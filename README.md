@@ -1,0 +1,2 @@
+# lango
+la django project
