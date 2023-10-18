@@ -1,130 +1,158 @@
 lango - la django project
 -----
 # lango project layout
-- education
-    - Basic Web Dev
-        - css
+- education [application]
+    - Basic Web Dev [feature]
+        - css [session]
         ```
         # for nested dropdown, toggler btn need data-bs-auto-close="outside" option
         ```
-        - html
-        - javaScript
-    - Cloud [Directory]
-        - Azure [Directory]
-        - DigitalOcean [Directory]
-        - Google Cloud Platform [Directory]
-        - Heroku [Directory]
-        - PythonAnywhere [Directory]
-    - Database [Directory]
-        - MongoDB [Directory]
-        - MySQL [Directory]
-        - PostgreSQL [Directory]
-        - SQLite [Directory]
-    - Dart [Directory]
-        - Dart Installation [Directory]
-        - Basic Dart [Directory]
-        - Flutter [Directory]
-            - Flutter Installation [Directory]
-            - Classes/Methods [Directory]
-            - Packages [Directory]
-            - Widgets [Directory]
-    - Docker [Directory]
-        - Django [Directory]
-        - DRF [Directory]
-        - FastAPI [Directory]
-        - Fiber [Directory]
-    - Golang [Directory]
-        - Golang Installation [Directory]
-        - Basic Golang [Directory]
-        - Fiber [Directory]
-            - Fiber Installation [Directory]
-    - Lesson [Tips and Tricks, self learning lessons for beginner web developer]
-        - Application List
-            - windowsApplicationList.md
-            - macApplicationList.md
-        - Git starter guide
-        - iTerm2 .zshrc customization
-        - Setting up your mac for web dev env
-        - Text Editor Extensions
-    - PHP [Directory]
-        - Dev environment [Directory]
-        - Basic PHP [Directory]
-        - PHP Object Oriented Programming [Directory]
-        - Laravel [Directory]
-    - Python [Directory]
-        - Python Installation [Directory]
-            - Installation [Directory]
-            - Virtualenv [Directory]
-            - Editor [Directory]
-                - Visual Studio Code [Extensions]
-                - SublimeText [Configuration and plugins]
-        - Basic Python [Directory]
-            - Functional Programming [Directory]
-            - Object Oriented Programming [Directory]
-        - Django [Directory]
-            - Virtual Environment [Directory]
-            - Django Installation [Directory]
-                - Setting Up Project
-                - Project Layout
-            - Class Based View [Directory]
-            - Function Based View [Directory]
-                - Templates [Directory]
-                    - base.html
-                    - extend.html
-                - Tests [Directory]
-                - Views [Directory]
-                    - authentication.py
-                    - crud.py
-                    - decorators.py
-                - urls [Directory]
-                    - Project's urls.py
-                    - Application's urls.py
-                - settings.py [dev/deploy environment]
-                - admin.py
-                - models.py
-        - Django Rest Framework [Directory]
-            - Virtual Environment [Directory]
-            - Django Rest Framework Installation [Directory]
-                - Setting Up Project
-                - Project Layout
-            - Class Based View [Directory]
-            - Function Based View [Directory]
-                - Tests [Directory]
-                - Views [Directory]
-                    - authentication.py
-                    - crud.py
-                - urls [Directory]
-                    - Project's urls.py
-                    - Application's urls.py
-                - settings.py [dev/deploy environment]
-                - admin.py
-                - models.py
-                - serializers.py
-        - FastAPI [Directory]
-        - Flask [Directory]
-        - MicroPython [Directory]
-        - Tkinter [Directory]
-        - Web Scraping [Directory]
-            - BeautifulSoup4 [Directory]
-            - Selenium [Directory]
-    - Security [Directory]
-- lovie
-- office
-    - circularLetter
-    - contractDraft
-    - dutyTable
-    - expenseTrack
-    - fuelCalc
-    - product
-    - stationary
-    - summary
-    - tripExpense
-    - volumeCalc
-- portfolio
+        - html [session]
+        - javaScript [session]
+    - Cloud [Directory] [feature]
+        - Azure [Directory] [session]
+        - DigitalOcean [Directory] [session]
+        - Google Cloud Platform [Directory] [session]
+        - Heroku [Directory] [session]
+        - PythonAnywhere [Directory] [session]
+    - Database [Directory] [feature]
+        - MongoDB [Directory] [session]
+        - MySQL [Directory] [session]
+        - PostgreSQL [Directory] [session]
+        - SQLite [Directory] [session]
+    - Dart [Directory] [feature]
+        - Dart Installation [Directory] [session]
+        - Basic Dart [Directory] [session]
+        - Flutter [Directory] [session]
+            - Flutter Installation [Directory] [chapter]
+            - Classes/Methods [Directory] [chapter]
+            - Packages [Directory] [chapter]
+            - Widgets [Directory] [chapter]
+    - Docker [Directory] [feature]
+        - Django [Directory] [session]
+        - DRF [Directory] [session]
+        - FastAPI [Directory] [session]
+        - Fiber [Directory] [session]
+    - Golang [Directory] [feature]
+        - Golang Installation [Directory] [session]
+        - Basic Golang [Directory] [session]
+        - Fiber [Directory] [session]
+            - Fiber Installation [Directory] [chapter]
+    - Miscellaneous [Tips and Tricks, self learning lessons for beginner web developer] [feature]
+        - Application List [session]
+            - windowsApplicationList.md [chapter]
+            - macApplicationList.md [chapter]
+        - Git starter guide [session]
+        - iTerm2 .zshrc customization [session]
+        - Setting up your mac for web dev env [session]
+        - Text Editor Extensions [session]
+    - PHP [Directory] [feature]
+        - Dev environment [Directory] [session]
+        - Basic PHP [Directory] [session]
+        - PHP Object Oriented Programming [Directory] [session]
+        - Laravel [Directory] [session]
+    - Python [Directory] [feature]
+        - Python Installation [Directory] [session]
+            - Installation [Directory] [chapter]
+            - Virtualenv [Directory] [chapter]
+            - Editor [Directory] [chapter]
+                - Visual Studio Code [Extensions] [lesson]
+                - SublimeText [Configuration and plugins] [lesson]
+        - Basic Python [Directory] [session]
+            - Functional Programming [Directory] [chapter]
+            - Object Oriented Programming [Directory] [chapter]
+        - Django [Directory] [session]
+            - Virtual Environment [Directory] [chapter]
+            - Django Installation [Directory] [chapter]
+                - Setting Up Project [lesson]
+                - Project Layout [lesson]
+            - Class Based View [Directory] [chapter]
+            - Function Based View [Directory] [chapter]
+                - .env [lesson]
+                - Templates [Directory] [lesson]
+                    - base.html [topic]
+                    - extend.html [topic]
+                - Tests [Directory] [lesson]
+                - Views [Directory] [lesson]
+                    - authentication.py [topic]
+                    - crud.py [topic]
+                    - decorators.py [topic]
+                - urls [Directory] [lesson]
+                    - Project's urls.py [topic]
+                    - Application's urls.py [topic]
+                - settings.py [dev/deploy environment] [lesson]
+                    - base.py [topic]
+                    - production.py [topic]
+                    - settings.py [topic]
+                - admin.py [lesson]
+                - models.py [lesson]
+        - Django Rest Framework [Directory] [session]
+            - Virtual Environment [Directory] [chapter]
+            - Django Rest Framework Installation [Directory] [chapter]
+                - Setting Up Project [lesson]
+                - Project Layout [lesson]
+            - Class Based View [Directory] [chapter]
+            - Function Based View [Directory] [chapter]
+                - Tests [Directory] [lesson]
+                - Views [Directory] [lesson]
+                    - authentication.py [topic]
+                    - crud.py [topic]
+                - urls [Directory] [lesson]
+                    - Project's urls.py [topic]
+                    - Application's urls.py [topic]
+                - settings.py [dev/deploy environment] [lesson]
+                    - base.py [topic]
+                    - production.py [topic]
+                    - settings.py [topic]
+                - admin.py [lesson]
+                - models.py [lesson]
+                - serializers.py [lesson]
+        - FastAPI [Directory] [session]
+        - Flask [Directory] [session]
+        - MicroPython [Directory] [session]
+        - Tkinter [Directory] [session]
+        - Web Scraping [Directory] [session]
+            - BeautifulSoup4 [Directory] [chapter]
+            - Selenium [Directory] [chapter]
+    - Security [Directory] [feature]
+- lovie [application]
+- office [application]
+    - circularLetter [feature]
+    - contractDraft [feature]
+    - dutyTable [feature]
+    - employeeDb [feature]
+    - expenseTrack [feature]
+    - fuelCalc [feature]
+    - product [feature]
+    - stationary [feature]
+    - summary [feature]
+    - tripExpense [feature]
+    - volumeCalc [feature]
+- portfolio [application]
 
 # features
 - separately user account privilege, groups, applications
+    - groups
+      - eduAdmin
+      - lovAdmin
+      - offAdmin
+      - PorAdmin
+      - eduUser
+      - lovUser
+      - PorUser
+      - offCirLetUser
+      - offConDraUser
+      - offDutTabUser
+      - offEmpDbUser
+      - offExpTraUser
+      - offFueCalUser
+      - offProUser
+      - offStaUser
+      - offSumUser
+      - offTriExpUser
+      - offVolUser
 - features model for expressing through about page
+    - level [application, feature, session, chapter, lesson, topic]
     - title
     - description
 - 
