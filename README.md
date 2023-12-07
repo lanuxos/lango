@@ -122,7 +122,21 @@ lango - la django project
     - dutyTable [feature]
     - employeeDb [feature]
     - expenseTrack [feature]
+      - treasury
+        - category
+        - amount
+        - detail
+        - date
+        - bill no
+        - user
+        - image(optional)
+      - account
+        - category
+        - description
+        - balance
+        - date
     - fuelCalc [feature]
+    - inOutDoc [feature]
     - product [feature]
     - stationary [feature]
     - summary [feature]
@@ -146,6 +160,8 @@ lango - la django project
       - offEmpDbUser
       - offExpTraUser
       - offFueCalUser
+      - offInOutDocUser
+      - offInOutDocGuest [not allow when document taken]
       - offProUser
       - offStaUser
       - offSumUser
